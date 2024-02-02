@@ -7,4 +7,5 @@ export const routes: Routes = [
     { path: 'connexion', component: ConnexionComponent },
     {path:'aston',component:FirstPageComponent},
     {path:'inscription',component:InscriptionComponent},
+    
 ];
