@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,6 +8,10 @@ import { Router } from '@angular/router';
   templateUrl: './inscription.component.html',
   styleUrl: './inscription.component.css'
 })
-export class InscriptionComponent {
-
+export class InscriptionComponent implements OnInit{
+ 
+  ngOnInit(): void {
+      
+  }
+  
 }

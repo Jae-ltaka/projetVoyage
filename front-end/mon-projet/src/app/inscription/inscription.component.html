@@ -11,16 +11,19 @@
     <h2>Inscription</h2>
  </div>
 
-  <form action="/traitement-du-formulaire" method="post">
+  <form action="../connexion" method="post">
     <!-- Champ de saisie pour le prénom -->
+    <div class="formulaire">
     <label for="prenom">Prénom :</label>
     <input type="text" id="prenom" name="prenom" required>
 
     <br>
 
     <!-- Champ de saisie pour le nom -->
-    <label for="nom">Nom :</label>
-    <input type="text" id="nom" name="nom" required>
+    <div class="nom"><label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+    </div>
+    
 
     <br>
 
@@ -38,6 +41,7 @@
 
     <!-- Bouton de soumission -->
     <button type="submit">S'inscrire</button>
+  </div>
   </form>
 
 </body>
